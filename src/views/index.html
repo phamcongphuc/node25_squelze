@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <p id="noiDung">sasa</p>
+    
+</body>
+</html>
+
+<!-- <script>
+	function run() {
+
+		// Creating Our XMLHttpRequest object
+		var xhr = new XMLHttpRequest();
+
+		// Making our connection
+		var url = 'http://localhost:8080/api/user/getUser';
+		xhr.open("GET", url, true);
+
+		// function execute after request is successful
+		xhr.onreadystatechange = function () {
+			if (this.readyState == 4 && this.status == 200) {
+				console.log(this.responseText);
+			}
+		}
+		// Sending our request
+		xhr.send();
+	}
+	run();
+</script> -->
+
+<!-- <script>
+    axios({
+        method:"GET", 
+        url:"http://localhost:8080/api/user/getUser"
+    }).then(result =>{
+        console.log(result)
+        result.data.map(item =>{
+            document.querySelector("#noiDung").innerHTML += item.first_name + "<br/>";
+        })
+    })
+</script> -->
